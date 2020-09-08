@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <type>com.baselet.element.old.allinone.ActivityDiagramText</type>
+    <coordinates>
+      <x>90</x>
+      <y>20</y>
+      <w>613</w>
+      <h>503</h>
+    </coordinates>
+    <panel_attributes>title:Transaction-Flow
+Pre-input:\CHAIN_NAME\ETHER_PRICE\GAS\GAS_PRICE_GWEI\INFURA_TOKEN
+Run cell # 1. PREPARE
+If
+	[Send ETH]
+	Run cell # 2.Option1 PREPARE_eth
+	
+
+	[Send ERC20]
+	Run cell # 2.Option2 PREPARE_erc20
+EndIf
+Run cell # 3. SIGN
+Run cell # 4. PUBLISH
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
